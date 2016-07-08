@@ -13,7 +13,7 @@ main(){
     
     while(cels <= upper){
     kelvin = cels + 273;
-    printf("%d : %d\n", cels, kelvin);
+    printf("%3d : %6d\n", cels, kelvin);
     cels += step;
     }
 }
