@@ -2,7 +2,7 @@
 
 int power(int, int);
 
-main ( ) {
+int main ( ) {
     printf("%d\n", power(2,10));
     return 0;
 }
