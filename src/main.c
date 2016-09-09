@@ -1,5 +1,8 @@
+#include <cs50.h>
 #include <stdio.h>
 
-main(){
-    printf("Hello, world");
+int main(void){
+    printf("state your name: ");
+    string name = GetString();
+    printf("Hello, %s\n", name);
 }
