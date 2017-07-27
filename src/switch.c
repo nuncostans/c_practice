@@ -1,10 +1,11 @@
-#include <cs50.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 int main(void)
 {
+        int n;
         printf("Give me an int between 1 and 10: ");
-        int n = GetInt();
+        scanf("%d", &n);
 
         switch(n)
         {
@@ -25,7 +26,7 @@ int main(void)
                 printf("You picked a large number\n");
                 break;
         default:
-                printf("You picked an invalid unt\n");
+                printf("You picked an invalid int\n");
                 break;
         }
 }
